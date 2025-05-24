@@ -3,77 +3,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Alfonso Cocinas – Backend Developer</title>
+  <title>Alfonso Cocinas – CV Interactivo</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header>
-    <h1>Alfonso Cocinas</h1>
-    <p>Backend Developer · Java · Spring Boot · MySQL</p>
-    <a class="btn" href="CvAlfonsoCocinas.pdf" download>📄 Descargar CV</a>
-  </header>
+  <div class="container">
+    <a href="CvAlfonsoCocinas.pdf" class="center-circle" target="_blank">
+      <img src="fotoPersonal.jpg" alt="Alfonso Cocinas" />
+    </a>
+    <div class="bubble" data-content="sobreMi">Sobre mí</div>
+    <div class="bubble" data-content="skills">Skills</div>
+    <div class="bubble" data-content="experiencia">Experiencia</div>
+    <div class="bubble" data-content="contacto">Contacto</div>
+  </div>
 
-  <main>
-    <section>
-      <h2>🧑‍💼 Sobre mí</h2>
-      <p>
-        Desarrollador backend con sólida base en Java, Spring Boot y MySQL,
-        formado en la IT Academy de Barcelona Activa. Con experiencia previa en
-        ventas, restauración y logística, donde apliqué competencias
-        tecnológicas y de gestión. Destacan mi adaptabilidad, capacidad de
-        comunicación y orientación al cliente.
-      </p>
-    </section>
+  <div class="info-panel" id="info"></div>
 
-    <section>
-      <h2>🛠️ Tecnologías</h2>
-      <ul class="grid">
-        <li>Java</li>
-        <li>Spring Boot</li>
-        <li>MySQL</li>
-        <li>MongoDB</li>
-        <li>JUnit</li>
-        <li>Git & GitHub</li>
-        <li>API REST</li>
-        <li>Postman</li>
-        <li>Maven</li>
-        <li>R2DBC & WebFlux</li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>💼 Experiencia</h2>
-      <div class="experience">
-        <strong>Soficat Xerox</strong><br />
-        <em>Asesor Comercial – 2022–2024</em>
-        <p>Optimización de procesos de ventas, reporting en Excel y uso de CRM.</p>
-      </div>
-      <div class="experience">
-        <strong>Amazon</strong><br />
-        <em>Asociado Logístico – 2020–2021</em>
-        <p>Control de inventario y optimización de rutas con herramientas digitales.</p>
-      </div>
-      <div class="experience">
-        <strong>As de Pikas</strong><br />
-        <em>Gerente – 2013–2020</em>
-        <p>Gestión integral de negocio, personal, compras y atención al cliente.</p>
-      </div>
-    </section>
-
-    <section>
-      <h2>🤝 Contacto</h2>
-      <ul>
-        <li>📧 <a href="mailto:alcogar79@gmail.com">alcogar79@gmail.com</a></li>
-        <li>🌍 <a href="https://github.com/acocinas" target="_blank">GitHub</a></li>
-        <li>💼 <a href="https://linkedin.com/in/alfonso-cocinas" target="_blank">LinkedIn</a></li>
-        <li>📍 L’Hospitalet de Llobregat, Barcelona</li>
-      </ul>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2025 Alfonso Cocinas</p>
-  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
 
